@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(fondo.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.contenedor{
+    height: 100%;
+}
+.contenido{
+    height: 100%;
+    width: 100%;
+}
+.cajaLogin{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 300px;
+    top: 28%;
+    left: 25%;
+}
+.barrasuperior{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 27px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    gap: 15px;
+    padding: 42px;
+}
+.text{
+    background: rgba(36, 36, 36, 0.78);
+    border-radius: 5px;
+    height: 49px;
+    text-indent: 15px;
+}
+.password{
+    background: rgba(36, 36, 36, 0.78);
+    border-radius: 5px;
+    height: 45px;
+    text-indent: 15px;
+}
+.botones{
+    flex-direction: column;
+    display: flex;
+    background-position-y: center;
+    text-align: center;
+    align-items: center;
+}
+.btnLogin{
+    background: #4AD299;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 90px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 90px;
+}
