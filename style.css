@@ -111,4 +111,11 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    top: -105px;
+    right: 70px;
 }
