@@ -54,6 +54,14 @@ body {
     text-indent: 52px;
     width: 268px;
 }
+.key{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 281px;
+    left: 100px;
+}
 .password{
     background: rgba(36, 36, 36, 0.78);
     border-radius: 5px;
@@ -61,6 +69,14 @@ body {
     box-sizing: border-box;
     text-indent: 52px;
     width: 268px;
+}
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 179px;
+    left: 101px;
 }
 .botones{
     flex-direction: column;
@@ -90,4 +106,12 @@ body {
     line-height: 20px;
     text-align: center;
     color: rgba(251, 251, 251, 0.73);
+}
+.config{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 534px;
+    left: 139px;
 }
